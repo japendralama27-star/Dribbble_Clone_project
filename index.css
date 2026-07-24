@@ -52,17 +52,44 @@ header{
     border-radius: 45px;
     background-color: #0d0c22;
 }
+#Whole_Search_bar{
+    height: 60px;
+    display: flex;
+    width: 600;
+    margin-top: 57px;
+    background-color: #d8d6d5;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
 .search{
     border-style: none;
-    width: 600px;
+    width: 550px;
     outline: none;
+    background-color: #d8d6d5;
+    margin-left: 25px;
+    font-size: 20px;
 }
 .search_bar{
     display: flex;
 }
+.Shots_bar{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #0d0c22;
+    font-size: 23px;
+    font-weight: 550;
+    margin-top: 8px;
+}
 .circle{
-    border-radius: 10px;
-    height: 25px;
-    width: 25px;
-    background-color:pink;
+    border-radius: 9999999px;
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    background-color:rgb(229, 51, 81);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
