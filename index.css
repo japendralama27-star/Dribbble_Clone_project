@@ -18,7 +18,7 @@ header{
     
 }
 .nav_bar a{
-    color: #060318;;
+    color:rgb(19, 7, 7);
     word-spacing: .03px;
     padding:28px;
     font-size: 20px;
@@ -29,7 +29,7 @@ header{
     justify-content: space-evenly;
 }
 .nav_bar a:hover{
-    color: rgb(56, 48, 48);
+    color: rgb(74, 69, 69);
 }
 .siginup
 {
@@ -44,6 +44,9 @@ header{
     text-transform: capitalize;
     text-decoration: none;
 }
+.siginup a:hover{
+    color: rgb(74, 69, 69);
+}
 .siginup button{
     height: 60px;
     width: 110px;
@@ -51,6 +54,9 @@ header{
     font-size: 20px;
     border-radius: 45px;
     background-color: #0d0c22;
+}
+.siginup button:hover{
+    background-color: #2b277b;
 }
 #Whole_Search_bar{
     height: 60px;
@@ -63,6 +69,9 @@ header{
     border-radius: 50px;
     border: 1px solid grey;
 }
+#Whole_Search_bar:hover{
+    background-color: #ffffff;
+}
 .search{
     border-style: none;
     width: 550px;
@@ -70,6 +79,9 @@ header{
     background-color: #d8d6d5;
     margin-left: 25px;
     font-size: 20px;
+}
+.search:hover{
+    background-color: #ffffff;
 }
 .search_bar{
     display: flex;
@@ -82,6 +94,9 @@ header{
     font-size: 23px;
     font-weight: 550;
     margin-top: 8px;
+}
+.Shots_bar:hover{
+    color: rgb(74, 69, 69);
 }
 .circle{
     border-radius: 9999999px;
