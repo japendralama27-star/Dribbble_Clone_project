@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    background-color: #fff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dribble_home{
+    height: 70px;
+    display: block;
+    padding-left: 40px;
+}
+.nav_bar{
+    display: flex;
+    min-width: 400px;
+    justify-content: space-evenly;
+    
+}
+.nav_bar a{
+    color: #060318;;
+    word-spacing: .03px;
+    padding:28px;
+    font-size: 20px;
+    font-weight: 550;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav_bar a:hover{
+    color: rgb(56, 48, 48);
+}
+.siginup
+{
+    padding-right: 60px;
+}
+.siginup a{
+    color: #060318;;
+    word-spacing: .03px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 550;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.siginup button{
+    height: 60px;
+    width: 110px;
+    color: white;
+    font-size: 20px;
+    border-radius: 45px;
+    background-color: #0d0c22;
+}
+.search_bar{
+    display: flex;
+}
+.circle{
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background-color:pink;
+}
