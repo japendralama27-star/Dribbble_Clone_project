@@ -107,7 +107,7 @@ header{
     height: 50px;
     width: 50px;
     margin-right: 8px;
-    background-color:rgb(229, 51, 81);
+    background-color:#ea4c89;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -134,16 +134,32 @@ header{
     align-items: center;
     border-radius: 20px;
 }
+.pro_button{
+    background-color: #3a3546;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    min-width: 40px;
+    height: 20px;
+    border-radius: 4px;
+}
 #thingsImages{
     border-radius: 40px;
+}
+#name{
+    margin-right:100px ;
 }
 .image{
     
     background: #fafbfc;
     display: flex;
-    
+    padding-bottom: 40px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.margin{
+    margin-bottom: 40px;
+    margin-left: 2.5px;
 }
 
 .img_icons{
