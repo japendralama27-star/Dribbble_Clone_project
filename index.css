@@ -4,6 +4,7 @@ header{
     height: 80px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .dribble_home{
@@ -107,4 +108,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.resturant_header{
+    text-align: center;
+    font-size: 50px;
+}
+.discription{
+    font-size: 25px;
+    color: rgb(114, 105, 105);
+}
+.searchResult{
+    text-decoration: none;
+    color: #262629;
 }
