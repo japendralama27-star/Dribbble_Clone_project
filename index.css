@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 header{
     display: flex;
     background-color: #fff;
@@ -116,8 +119,42 @@ header{
 .discription{
     font-size: 25px;
     color: rgb(114, 105, 105);
+    margin-bottom: 50px;
 }
 .searchResult{
     text-decoration: none;
     color: #262629;
+}
+
+.img_icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    border-radius: 20px;
+}
+#thingsImages{
+    border-radius: 40px;
+}
+.image{
+    
+    background: #fafbfc;
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_icons{
+    display: flex;
+    flex-wrap: warp;
+    margin-top: 2px 20px 20px 20px;
+    justify-content: space-evenly;
+    
+}
+#smallimage{
+    border-radius: 999999px;
+    height: 40px;
+    width: 40px;
 }
